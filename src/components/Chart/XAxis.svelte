@@ -28,7 +28,7 @@
     </g>
   {/each}
 
-  <text class="axis__label" x={scale.range()[1] / 2} textAnchor="middle" y={50}>
+  <text class="axis__label" x={scale.range()[1] / 2} text-anchor="middle" y={50}>
     {label}
   </text>
 </g>
